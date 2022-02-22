@@ -1,0 +1,149 @@
+body{
+    background-color: blanchedalmond;
+}
+.menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.search-box input{
+
+    font: arial;
+    font-size: 20px;
+    height: 30px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px;
+}
+.trang a:hover{    
+    text-align: center;
+    font-size: 20px;
+    color: orangered;
+    background-color: silver;
+}
+div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.cot{
+    width: 20%;
+    float:left; 
+}
+.sp{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px silver;
+    margin: 2%;
+    padding: 0.25%;
+}
+.gia{
+    color: crimson;
+    font-size: large;
+    font-weight: bold;
+}
+.ten{
+    font-size: larger;
+    color: red;
+}
+.sp .gia del{
+    color: blue;
+}
+.sp:hover{
+    background-color: silver;
+}
+.cot img{
+   max-width: 95%;
+}
+.sp .button{
+    height: 35px;
+    width: 250px;
+    color: red;
+    font-weight: blod;
+    font-size: large;
+    background: aqua;
+    border-radius: 5px;
+}
+.company-infor{
+    width: 320px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+.company-infor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.company-infor ul li{
+    display: inline;
+    width: 25%;
+    margin-left: 10px;
+}
+.company-infor ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+nav{
+    height: 60px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
+.hmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.hmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: yellow;
+}
+.hmenu ul ul{
+    display: none;
+    background-color: orange;
+    list-style: none;
+    padding: 10px;
+}
+.hmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.hmenu a:hover{
+    color:yellow
+}
+.vmenu{
+    box-shadow: 0 0 3px gray;
+    margin: 5px;
+    list-style: none;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px dotted white;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px 5px 5px 28px;
+    background: url("/image/spider_chibi.jpg") no-repeat 5px center;
+    background-size: 20px;
+}
+.vmenu a:hover{
+    background: url("/image/spider_chibi.jpg") no-repeat 5px center;
+    background-size: 20px;
+    color: wheat;
+    background-color: black;
+    border-bottom: 1px dotted white;
+}

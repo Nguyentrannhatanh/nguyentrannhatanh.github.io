@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1500px;
+    background-color: blanchedalmond;
+    height: 200px;
+    margin: 0 auto;
+}
+header{
+    background: url("/image/hobby_store.png") 100%;
+    background-size: 90% 90%;
+    padding-bottom: 10%;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    position: relative;
+    color: black;
+}
+.container>header .chudau{
+    Position:absolute;
+    text-align: center;
+    top:0px;
+    Right:0px;
+    line-height: 40px;
+    width: 20%;
+    background-color: orangered;
+    Border-bottom-left-radius: 30px;
+}
+.container>header .chudau a{
+    margin : 0 10px;
+    color : white;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.container>header .chusau{
+    position: absolute;
+    font-size:38px;
+    left : 50px;
+    bottom: 1340px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-left: 2px;
+}
+.container>header .chudau a:hover{
+    color: yellow;
+    text-decoration: underline;
+    margin-left: 5px;
+    transition: 1s;
+}  
+nav{
+    height: 60px;
+    background-color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+article{
+    
+    width: 80%;
+    float: left;
+    background-color: palegoldenrod;
+    height: 400px;
+}
+aside{
+    width: 20%;
+    float: right;
+    height: 400px;
+    background-color: wheat;
+    font-size: 25px;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    min-height: 400px;
+}
+.search-box input{
+    font: arial;
+    font-size: 20px;
+    height: 40px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    background-color: bisque;
+}
+.vmenu{
+    box-shadow: 0 0 3px gray;
+    margin: 5px;
+    list-style: none;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px dotted orange;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: orange;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 5px 5px 5px 25px;
+    background: url("/image/spider_chibi.jpg") no-repeat 15px center;
+    background-size: 30px;
+}
+.vmenu a:hover{
+    background: url("/image/spider_chibi.jpg") no-repeat 5px center;
+    background-size: 20px;
+    color: wheat;
+    background-color: orange;
+}
+.company-infor{
+    width: 320px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+.company-infor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.company-infor ul li{
+    display: inline;
+    width: 25%;
+    margin-left: 10px;
+}
+.company-infor ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}

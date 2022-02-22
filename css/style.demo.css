@@ -1,0 +1,91 @@
+header{
+    padding-bottom: 10%;
+    font-size: 15px;  
+}
+nav{
+    height: 60px;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.hmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.hmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: white;
+}
+.hmenu ul ul{
+    display: none;
+    background-color: whitesmoke;
+    list-style: none;
+    padding: 10px;
+}
+.hmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hmenu a:hover{
+    color:white
+}
+.vmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.vmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: white;
+}
+.vmenu ul ul{
+    display: none;
+    background-color: whitesmoke;
+    list-style: none;
+    padding: 10px;
+}
+.vmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.vmenu a:hover{
+    color:white
+}
+.search-box input{
+    font: arial;
+    font-size: 20px;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    background-color: bisque;
+}
+.company-infor{
+    width: 320px;
+    height: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+.company-infor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.company-infor ul li{
+    display: inline;
+    width: 25%;
+    margin-left: 10px;
+}
+.company-infor ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,139 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: relative;
+    max-width:2000px;
+    margin:0 auto;
+}
+.container>header{
+    height: 400px;
+    width: 1800px;
+    background-image: url("/image/fpt.poly.jpg");
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>header .chudau{
+    Position:absolute;
+    text-align: center;
+    top:0px;
+    Right:0px;
+    line-height: 40px;
+    width: 20%;
+    background-color: orangered;
+    Border-bottom-left-radius: 30px;
+}
+.container>header .chudau a{
+    margin : 0 10px;
+    color : blanchedalmond;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.container>header .chusau{
+    position: absolute;
+    font-size:38px;
+    left : 50px;
+    bottom: 1340px;
+    font-variant: small-caps;
+    text-align: center;
+    margin-left: 2px;
+}
+.container>header .chudau a:hover{
+    color: yellow;
+    text-decoration: underline;
+    margin-left: 5px;
+    transition: 1s;
+}   
+.container>article{
+    min-height: 1200px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 1200px;
+    width: 25%;
+    background-color: aqua;
+    float: right;
+}
+.container>nav{
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    background-color:orangered;
+    font-variant: small-caps;
+}
+.container>nav .lang{
+    position: absolute;
+    bottom: 1275px ;
+    right: 10px;
+    line-height: 0px;
+    text-align:right;
+}
+.container>nav .lang a{
+    color: white;
+    margin: 0 5px;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.container>nav .lang a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container>nav#lg{
+    color: green;
+}
+.container>footer{
+    line-height: 50px;
+    background-color: blue;
+    text-align: center;
+    clear: both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+}
+.container>nav>a:hover{
+    color:yellow;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+iframe{
+    width: 100%;
+    min-height: 400px;
+}
+h1{
+    font-family: Tahoma ;
+    font-size: 50px;
+    position: absolute;
+    text-decoration: underline;
+    color: darkcyan;
+    bottom: 1350px;
+    left: 50px;
+    box-shadow:(255, 81, 0) -1px -2px 0.5em;
+}
+.hmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.hmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: yellow;
+}
+.hmenu ul ul{
+    display: none;
+    background-color: blanchedalmond;
+    list-style: none;
+    padding: 10px;
+}
+.hmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.hmenu a:hover{
+    color:yellow
+}

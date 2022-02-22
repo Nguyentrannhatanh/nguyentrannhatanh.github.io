@@ -1,0 +1,98 @@
+.doan-1{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+}
+.menu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+p>img{
+    width: 450px;
+    height: 450px;
+    width: 21%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    padding: 1px;
+    margin: 0.025%;
+}
+div{
+    text-align: center;
+    font-size: 20px;
+}
+.h2{
+    text-align: left;
+}
+.company-infor{
+    width: 320px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+.company-infor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.company-infor ul li{
+    display: inline;
+    width: 25%;
+    margin-left: 10px;
+}
+.company-infor ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+nav{
+    height: 60px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
+nav{
+    height: 60px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
+.hmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.hmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: yellow;
+}
+.hmenu ul ul{
+    display: none;
+    background-color: orange;
+    list-style: none;
+    padding: 10px;
+}
+.hmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.hmenu a:hover{
+    color:yellow
+}

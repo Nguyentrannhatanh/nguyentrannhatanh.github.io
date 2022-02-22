@@ -1,0 +1,143 @@
+.heading{
+    font-size: 28px;
+    color: gray;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+.heading::after{
+    content: "";
+    position: absolute;
+    width: 280px;
+    height: 5px;
+    background-color:aqua;
+    top:45px;
+    left: 35%;
+}
+nav{
+    text-align: center;
+}
+.login-form{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.login-form form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form form input{
+    padding: 15px 15px;
+    border: 1px solid silver;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: all .2s linear;
+}
+.login-form form input:focus{
+    border: 1px solid aqua;
+}
+.login-form form button{
+    padding: 10px;
+    background: aqua;
+    border-radius: 10px;
+    border: 1px solid silver;
+    font-size: 15px;
+    font-weight: bold;
+}
+.login-form form button:hover{
+    background: blueviolet;
+    color: white;
+    transition: all .4s linear;
+}
+.link-login{
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+    margin: 25px 0;
+}
+.link-login:hover{
+    color: violet;
+    transition: all .3s linear;
+}
+nav{
+    height: 60px;
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+article{
+    
+    width: 80%;
+    float: left;
+    background-color: palegoldenrod;
+    height: 400px;
+}
+aside{
+    width: 20%;
+    float: right;
+    height: 400px;
+    background-color: wheat;
+    font-size: 25px;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    min-height: 400px;
+}
+.company-infor{
+    width: 320px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+}
+.company-infor ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+}
+.company-infor ul li{
+    display: inline;
+    width: 25%;
+    margin-left: 10px;
+}
+.company-infor ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.hmenu>ul>li{
+    display: inline-block;
+    width: 15%; 
+}
+.hmenu li:hover>ul{
+    display: block;
+    position: absolute; 
+    color: yellow;
+}
+.hmenu ul ul{
+    display: none;
+    background-color: orange;
+    list-style: none;
+    padding: 10px;
+}
+.hmenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.hmenu a:hover{
+    color:yellow
+}
+header{
+    text-align: center;
+}
